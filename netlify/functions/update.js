@@ -1,4 +1,4 @@
-import {sendMessage} from "../../app/functions/sendMessage";
+const sendMessage = require("../../app/functions/sendMessage");
 
 exports.handler = async (event) => {
   const { message } = JSON.parse(event.body);
