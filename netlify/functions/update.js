@@ -1,4 +1,7 @@
+import {sendMessage} from "../../app/functions/sendMessage";
+
 exports.handler = async (event) => {
-  console.log("Received an update from Telegram!", event.body);
+  const { message } = JSON.parse(event.body);
+  await sendMessage(message.chat.id, "Сообщение принято!");
   return { statusCode: 200 };
 };
