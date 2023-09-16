@@ -1,0 +1,23 @@
+{
+    "update_id": 208778965,
+    "message": {
+        "message_id": 45,
+        "from": {
+            "id": 684524586,
+            "is_bot": false,
+            "first_name": "First Name",
+            "last_name": "Last Name",
+            "username": "userName",
+            "language_code": "ru"
+        },
+        "chat": {
+            "id": 684524586,
+            "first_name": "First Name",
+            "last_name": "Last Name",
+            "username": "userName",
+            "type": "private"
+        },
+        "date": 1694904349,
+        "text": "hello"
+    }
+}
