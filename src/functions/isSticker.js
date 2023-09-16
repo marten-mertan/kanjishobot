@@ -1,4 +1,3 @@
-module.exports = (message) => {  
-    console.log('Sticker: ', message.sticker);
+module.exports = (message) => {
     return message.sticker ? true : false
 };
