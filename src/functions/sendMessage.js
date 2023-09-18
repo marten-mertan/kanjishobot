@@ -1,4 +1,4 @@
-module.exports = async (chat_id, text) => {  
+export const sendMessage = async (chat_id, text) => {
     try {
         const res = await fetch(`https://api.telegram.org/bot${process.env.BOT_TOKEN}/sendMessage`, {
             method: 'POST',
@@ -16,4 +16,4 @@ module.exports = async (chat_id, text) => {
     } catch (e) {
         console.error('Error: ' + e);
     }
-};
+}

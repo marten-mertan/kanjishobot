@@ -1,8 +1,9 @@
-const sendMessage = require("../../src/functions/sendMessage");
-const sendSticker = require("../../src/functions/sendSticker");
-const isSticker = require("../../src/functions/isSticker");
+import {sendMessage} from '../../src/functions/sendMessage';
+import {sendSticker} from '../../src/functions/sendSticker';
+import {isSticker} from '../../src/functions/isSticker';
 
-exports.handler = async (event) => {
+
+export const handler = async (event) => {
   console.log('Chat object: ', JSON.parse(event.body));
 
   const { message } = JSON.parse(event.body);
@@ -18,4 +19,4 @@ exports.handler = async (event) => {
   }
 
   return { statusCode: 200 };
-};
+}

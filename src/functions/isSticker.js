@@ -1,3 +1,3 @@
-module.exports = (message) => {
+export const isSticker = (message) => {
     return message.sticker ? true : false
-};
+}
