@@ -5,6 +5,7 @@
   "main": "update.js",
   "type": "module",
   "scripts": {
+    "build": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/marten-mertan/kanjishobot/issues"
   },
-  "homepage": "https://github.com/marten-mertan/kanjishobot#readme"
+  "homepage": "https://github.com/marten-mertan/kanjishobot#readme",
+  "dependencies": {
+    "faunadb": "^4.8.0"
+  }
 }
