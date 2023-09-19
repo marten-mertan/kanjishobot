@@ -10,9 +10,7 @@ export const sendMessage = async (chat_id, text) => {
                 text: text
             }),
         })
-        const data = await res.json();
-        console.log('Data: ', data);
-        
+        const data = await res.json();        
     } catch (e) {
         console.error('Error: ' + e);
     }

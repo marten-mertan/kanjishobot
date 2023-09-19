@@ -19,9 +19,7 @@ export const sendSticker = async (chatId, sticker = null) => {
                 sticker: dataSticker
             }),
         })
-        const data = await res.json();
-        console.log('Data: ', data);
-        
+        const data = await res.json();        
     } catch (e) {
         console.error('Error: ' + e);
     }
