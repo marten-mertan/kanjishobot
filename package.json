@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "npm install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "netlify dev"
   },
   "repository": {
     "type": "git",
