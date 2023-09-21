@@ -1,4 +1,4 @@
-const faunadb = require('faunadb')
+import faunadb from 'faunadb';
 const q = faunadb.query;
 const client = new faunadb.Client({
   secret: process.env.FAUNA_DB_SECRET_KEY
